@@ -1,0 +1,105 @@
+/* Form of table (form-login.html) */
+
+table * {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  table.BoxForm {
+    width: 35%;
+    margin: 20px auto;
+    border: 2px double #bb9ab1;
+    border-radius: 10px;
+  }
+  
+  table.BoxForm > caption {
+    font-weight: 600;
+    color: #433d8b;
+    text-decoration: underline #bb9ab1 2px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+  }
+  
+  td {
+    font-weight: 600;
+    padding: 1%;
+    background-color: #ccd;
+    color: #433d8b;
+    font-size: 0.9em;
+    border-radius: 5px;
+  }
+  
+  td input {
+    outline: 1px solid #433d8b;
+    border: 1px solid #433d8b;
+    padding: 3px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #b1afff;
+  }
+
+  td input:autofill {
+    border: 1px solid #000;
+
+  }
+  
+  td#generate1 select {
+    border-radius: 3px;
+    padding: 4px;
+    background-color: #b1afff;
+    border: 2px solid #433d8b;
+    font-weight: 600;
+  }
+  
+  td#generate1 select option, td#generate1 select:focus {
+    color: #2e236c;
+    font-weight: bold;
+    background-color: #dfd3c3;
+  }
+  
+  td#generate1 select option[value="Male"] {
+    color: #513b30;
+  }
+  
+  td#generate1 select option[value="Female"] {
+    color: #430541; 
+  }
+  td#generate1 select:hover,
+  td input:hover {
+    background-color: #dfd3c3;
+    cursor: pointer;
+  }
+  
+  td#generate1 select:hover {
+    font-weight: 600;
+    color: #2e236c;
+  }
+  
+  td input:focus {
+    background-color: #dfd3c3;
+    color: #433d8b;
+    cursor: context-menu;
+  }
+  
+  td#agreepolicy input[type="checkbox"]:focus {
+    cursor: pointer;
+  }
+  
+  td#agreepolicy > input#policy {
+    accent-color: #433d8b;
+  }
+  
+  td > button#Signup {
+    padding: 4px;
+    background-color: #b1afff;
+    color: #000;
+    border: 2px double #433d8b;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  
+  button#Signup:hover {
+    background-color: #dfd3c3;
+    border: 2px double #433d8b;
+    color: #433d8b;
+  }

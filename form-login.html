@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Form 📝</title>
+  </head>
+  <body>
+    <!-- form Of Table -->
+    <table class="BoxForm">
+      <form action="#" method="POST" class="forumbox">
+        <caption>
+          Form Sign Up
+        </caption>
+
+        <!--Username  -->
+        <tr>
+          <td id="UserID"><label for="Name">UserID :</label></td>
+          <td id="UserID1">
+            <input
+              type="text"
+              name="Name"
+              id="Name"
+              maxlength="22"
+              placeholder="Fill in a User_ID"
+              title="Please fill in the user ID correctly"
+              autofocus
+              required
+            />
+          </td>
+        </tr>
+
+        <!-- Password -->
+        <tr>
+          <td id="KeyworRd"><label for="passwd">Password:</label></td>
+          <td id="keyworRd1">
+            <input
+              type="password"
+              name="passwd"
+              id="passwd"
+              title="Please fill in the password correctly"
+              placeholder="Fill in a Password"
+              required
+            />
+          </td>
+        </tr>
+
+        <!-- Confirmation Password -->
+        <tr>
+          <td id="conf-pass">
+            <label for="conf-passnya">Confirmation Password:</label>
+          </td>
+          <td id="conf-pass1">
+            <input
+              type="password"
+              name="conf-passnya"
+              id="conf-passnya"
+              title="Please fill in the Confirmation Password correctly"
+              placeholder="Fill in a confirm password"
+              required
+            />
+          </td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+          <td id="addrr"><label for="Email">Address/Email :</label></td>
+          <td id="addrr1">
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              pattern=".+@gmail\.com"
+              required
+              title="Please fill in the Email correctly"
+              placeholder="Use a @gmail.com"
+            />
+          </td>
+        </tr>
+
+        <!-- No Telp -->
+        <tr>
+          <td id="numbertelp"><label for="tel">Number Telphone :</label></td>
+          <td id="numbertelp1">
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              pattern="^\+62|62|08[1-9][0-9]{6,9}$"
+              title="Please fill in the Number Telephone correctly"
+              placeholder="Fill in a Number Telp"
+              required
+            />
+          </td>
+        </tr>
+
+        <!-- Birth Date -->
+        <tr>
+          <td id="birthdate">
+            <label for="Date">Birth Date :</label>
+          </td>
+          <td id="birthdate1">
+            <input
+              type="date"
+              name="Date"
+              id="Date"
+              min="1970-01-01"
+              max="2024-12-28"
+              title="Please fill in the date"
+              required
+            />
+          </td>
+        </tr>
+
+        <!-- Gender -->
+        <tr>
+          <td id="generate"><label for="gender">Gender :</label></td>
+          <td id="generate1">
+            <select name="gender" required>
+              <option value="Privacy-User">~~ Privacy Gender ~~</option>
+              <option value="Male"id="Boy">~~ Male &#128104;</option>
+              <option value="Female"id="Women">~~ Female &#128105;</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- privacy policy -->
+        <tr>
+          <td id="agreepolicy" colspan="2">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              value="agree"
+              value="agree"
+              required
+            />
+            <label for="policy"
+              >I have read and I agree to the Privacy Policy.</label
+            >
+          </td>
+        </tr>
+
+        <!-- button submit -->
+        <tr>
+          <td colspan="2">
+            <button type="submit" id="Signup">Sign Up</button>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
